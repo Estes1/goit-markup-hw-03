@@ -1,0 +1,300 @@
+.site-body {
+    font-family: 'Roboto' , sans-serif;
+    color: #2E2F42;
+}
+
+:root {
+    --title-color: #2E2F42;
+    --btn-title-collor: #fff;
+    --typical-if: 1.33 
+}
+
+/* ---------HEADER----------- */
+
+.header-link {
+    font-family: 'Raleway';
+    
+    font-weight: 800;
+    font-size: 18px;
+    line-height: var(--typical-if);
+    
+    color: #4D5AE5;
+     }
+
+    .link {
+        text-decoration: none;
+    
+    }
+    .logo {
+        color: var(--title-color);
+    }
+    .header-list {
+        color: #2E2F42;
+    }
+    .list {
+        list-style: none;
+    }
+    
+    .header-link-item {
+        color: var(--title-color);
+    }
+    .header-list-item-text {
+        
+        font-weight: 600;
+        font-size: 16px;
+        line-height: calc(24/16);
+      
+        letter-spacing: 0.02em;
+     
+        color: var(--title-color);
+    }
+
+    .header-link-contact {
+        
+        font-size: 16px;
+        line-height: calc(24/16);
+
+        letter-spacing: 0.02em;
+
+        color: #434455;
+    }
+
+    /* ---------BUTTON----------- */
+    .section-btn {
+        background: var(--title-color);
+
+    }
+    .button-title {
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: calc(60/56);
+        
+        letter-spacing: 0.02em;
+        color: var(--btn-title-collor);
+        
+    }
+    .button {
+        
+        font-weight: 600;
+        font-size: 16px;
+        line-height: calc(19/16);
+       
+        display: flex;
+    
+        letter-spacing: 0.04em;
+        
+        color: #FFFFFF;
+        background: #4D5AE5;
+        cursor: pointer;
+    }
+
+    /* ---------ORDER----------- */
+
+    .order-title {
+        font-weight: 600;
+       font-size: 20px;
+       line-height: calc(24/20);
+
+       letter-spacing: 0.02em;
+       color: var(--title-color);
+    }
+    .order-text {
+        font-size: 16px;
+        line-height: calc(24/16);
+
+
+        letter-spacing: 0.02em;
+
+        color: #434455;
+
+    }
+
+    /* ---------PHOTO--------- */
+
+    .photo-title {
+        font-weight: 600;
+        font-size: 36px;
+        line-height: calc(40/36);
+    
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--title-color);
+    }
+   
+    /*---------TEAM CARD-----------  */
+
+    .section-team-card {
+        
+        background: #F4F4FD;;
+    }
+    .team-card-title { 
+        font-weight: 600;
+        font-size: 36px;
+        line-height: calc(40/36);
+
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--title-color);
+
+    }
+    .team-card-list {
+        background: #fff;
+    }
+    
+   
+
+    .team-card-name {
+        font-weight: 600;
+       font-size: 20px;
+       line-height: calc(24/20);
+    
+       letter-spacing: 0.02em;
+       color: var(--title-color);
+    }
+
+    .team-card-text {
+        font-size: 16px;
+        line-height: calc(24/16);
+
+        letter-spacing: 0.02em;
+
+        color: #434455;
+
+    }
+
+
+
+
+
+
+
+
+
+
+/* -----------------------PORTFOLIO-------------------- */
+
+.header-link:hover , .header-link:focus {
+color: #4D5AE5;
+}
+
+/* ------------BUTTONS------------ */
+
+
+.portfolio-button  {
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(24/16);
+    
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    background: #F4F4FD;
+    color: #4D5AE5;
+    cursor: pointer;
+
+}
+
+/* --------INTER--------- */
+.inter-list { 
+    background: var(--btn-title-collor)
+}
+
+.inter-title {
+    font-weight: 600;
+font-size: 20px;
+line-height: calc(24/20);
+
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+.inter-text {
+    font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.02em;
+
+color: #434455;
+
+}
+
+/* --------SERVICE---------- */
+
+
+.service-list {
+   background: var(--btn-title-collor);
+}
+
+.service-title {
+    font-weight: 600;
+font-size: 20px;
+line-height: calc(24/20);
+
+letter-spacing: 0.02em;
+color: var(--title-color);
+
+}
+.service-text {
+    font-size: 16px;
+line-height: calc(24/20);
+
+letter-spacing: 0.02em;
+
+color: #434455;
+
+}
+
+
+/* ---------DESIGN------- */
+
+.design-list {
+    background: var(--btn-title-collor);
+}
+
+.design-title {
+    font-weight: 600;
+font-size: 20px;
+line-height: calc(24/20);
+
+letter-spacing: 0.02em;
+color: var(--title-color);
+}
+.design-text {
+    font-size: 16px;
+line-height: calc(24/20);
+
+letter-spacing: 0.02em;
+
+color: #434455;
+}
+
+/* ---------FOOTER-------- */
+
+.footer {
+    background: var(--title-color);
+}
+.footer-link {
+    font-family: 'Raleway';
+    
+    font-weight: 800;
+    font-size: 18px;
+    line-height: var(--typical-if);
+    color: #4D5AE5;
+}
+
+.logotype {
+    color: var(--btn-title-collor);
+}
+.footer-text {
+    font-size: 16px;
+line-height: 1.5;
+
+letter-spacing: 0.02em;
+
+color: #E7E9FC;
+}
+
+/* паддинг и марджин вверх вправо вниз влево  */
